@@ -3,13 +3,13 @@ package com.example.solid.controller;
 import lombok.Data;
 
 /**
- * WithdrawDTO
+ * WithdrawDto
  */
 @Data
-public class WithdrawDTO {
+public class WithdrawDto {
 
     private Long userId;
     private String password;
-    private Integer value;
+    private Long value;
 
 }
